@@ -1,7 +1,5 @@
 const bbt = require('big-bang-theory');
 
-
-
 const season = (req, res) => {
     if (req.params.season < 12 || req.params.season > 0) {
     res.status(200).json({
